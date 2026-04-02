@@ -1,0 +1,15 @@
+{
+  "type": "combined_qa_dataset",
+  "included_runs": [
+    "Langchain_llmQA",
+    "Langgraph_llmQA"
+  ],
+  "total_positive_pairs": 397,
+  "total_triplets": 397,
+  "created_at": "2026-02-04T18:37:03.865890",
+  "description": "Combined QA synthetic dataset from multiple frameworks",
+  "framework_distribution": {
+    "Langchain_llmQA": 0,
+    "Langgraph_llmQA": 0
+  }
+}

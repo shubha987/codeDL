@@ -1,0 +1,10 @@
+{
+  "name": "langgraph",
+  "framework": "langgraph",
+  "input_file": "data\\processed\\repos\\Fixed_updated_codebase_chunks\\Langgraph\\langgraph_py_20260201_212547\\langgraph_py_chunks.jsonl",
+  "num_chunks": 200,
+  "positive_pairs": 1000,
+  "triplets": 200,
+  "created_at": "2026-02-04T15:12:19.679897",
+  "random_seed": 42
+}

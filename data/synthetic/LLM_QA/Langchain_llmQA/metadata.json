@@ -1,0 +1,19 @@
+{
+  "name": "langchain_llm",
+  "framework": "unknown",
+  "input_file": "/kaggle/input/ast-chunk-langgraph-langchain-py/langchain_py_chunks.jsonl",
+  "total_chunks_processed": 200,
+  "successful_pairs": 199,
+  "successful_triplets": 199,
+  "skipped_chunks": 1,
+  "model_name": "Qwen/Qwen2.5-3B-Instruct",
+  "approach": "PURE_LLM_NO_FALLBACK",
+  "created_at": "2026-02-04T11:20:54.040052",
+  "config": {
+    "max_documents": 200,
+    "tfidf_features": 5000,
+    "random_seed": 42,
+    "no_code_truncation": true,
+    "no_fallback_templates": true
+  }
+}

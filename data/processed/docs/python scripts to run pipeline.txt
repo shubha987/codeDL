@@ -1,0 +1,50 @@
+# Run from root folder
+
+python -m scripts.run_python_pipeline --name output --include folder/file  ( present inside codebases folder)  
+
+e.g -  python -m scripts.run_python_pipeline --name crewai_sujata --include crewai  
+
+gitrep part
+
+(for .py only )
+
+python -m scripts.run_repo_pipeline  single https://github.com/langchain-ai/langchain --name langchain_code --extensions .py 
+
+( full for code with docs )
+
+python -m scripts.run_repo_pipeline  single https://github.com/langchain-ai/langchain 
+
+( can give name to your output )
+
+python -m scripts.run_repo_pipeline  single https://github.com/langchain-ai/langchain --name langchain_code  
+
+(for selecting number of files )
+
+python -m scripts.run_repo_pipeline  single https://github.com/langchain-ai/langchain --name langchain_code --extensions .py --max-files 100
+
+
+-------------------------------
+
+GitHub Repo
+    ↓
+Repository Crawler
+    ↓
+File Type Router
+    ↓  ↓  ↓  ↓
+[Code Parser] [Doc Parser] [Config Parser] [Other Parser]
+    ↓
+Chunking Engine
+    ↓
+Structured Output (JSONl)
+
+
+data/
+├── raw/          # ALL INPUT DATA
+│   ├── codebases/   # Local codebases / scraped GitHub code
+│   ├── repos/       # Full cloned GitHub repositories
+│   └── docs/        # Text / markdown / docs (optional) ( was created for testing web/url data )
+│
+├── processed/    # ALL OUTPUT DATA
+│   ├── chunks/      # Chunked outputs (local files)
+│   ├── repos/       # Chunked repo outputs + stats
+│   └── docs/        # Processed docs (if any) ( created for testing web url data )

@@ -1,0 +1,10 @@
+{
+  "name": "openai_agents_python",
+  "framework": "unknown",
+  "input_file": "data\\processed\\repos\\Fixed_updated_codebase_chunks\\openai-agents-python\\openai-agents-python_py_20260201_211852\\openai-agents-python_py_chunks.jsonl",
+  "num_chunks": 200,
+  "positive_pairs": 1000,
+  "triplets": 200,
+  "created_at": "2026-02-04T15:13:48.676636",
+  "random_seed": 42
+}

@@ -1,0 +1,12 @@
+{
+  "dataset_name": "sample_code",
+  "dataset_version": "v1",
+  "created_at": "2026-01-10T18:34:49.493910Z",
+  "chunking_strategy": "pure_ast + tree_sitter_spans",
+  "languages": [
+    "python"
+  ],
+  "python_version": "3.10.19",
+  "total_files": 34,
+  "total_chunks": 110
+}

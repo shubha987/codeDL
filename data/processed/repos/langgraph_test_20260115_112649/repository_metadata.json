@@ -1,0 +1,84 @@
+{
+  "repo_url": "https://github.com/langchain-ai/langgraph",
+  "repo_name": "langgraph_test",
+  "local_path": "data\\raw\\repos\\langgraph",
+  "extensions_included": "ALL",
+  "timestamp": "20260115_112649",
+  "basic": {
+    "repo_name": "langgraph",
+    "local_path": "data\\raw\\repos\\langgraph",
+    "size_mb": 12.07,
+    "file_count": 450,
+    "extracted_at": "2026-01-15T11:26:42.099213"
+  },
+  "git": {
+    "remote_url": "https://github.com/langchain-ai/langgraph",
+    "branch": "main",
+    "latest_commit": {
+      "hash": "8cb87eaf7637ca591adc9715fc412e6661e4a77d",
+      "author": "Lauren Hirata Singh",
+      "email": "lauren@langchain.dev",
+      "date": "Tue Jan 13 09:34:16 2026 -0500",
+      "message": "chore(docs): Update link for LangGraph guides in README (#6680)"
+    },
+    "branch_count": 3,
+    "branches": [
+      "main",
+      "remotes/origin/HEAD -> origin/main",
+      "remotes/origin/main"
+    ],
+    "tag_count": 0,
+    "tags": []
+  },
+  "dependencies": {
+    "python_packages": [],
+    "nodejs_packages": [],
+    "docker": false,
+    "other_dependencies": []
+  },
+  "structure": {
+    "directories": [
+      ".github",
+      "examples",
+      "libs"
+    ],
+    "file_types": {
+      ".py": 248,
+      ".ipynb": 73,
+      "": 37,
+      ".json": 25,
+      ".yml": 20,
+      ".toml": 16,
+      ".md": 15,
+      ".sample": 14,
+      ".typed": 13,
+      ".lock": 10
+    },
+    "has_agentic_structure": false
+  },
+  "agentic_detection": {
+    "langchain": "usage",
+    "crewai": "usage",
+    "haystack": "usage",
+    "llamaindex": "usage"
+  },
+  "entry_points": [
+    "libs\\langgraph\\langgraph\\pregel\\main.py",
+    "libs\\cli\\langgraph_cli\\cli.py",
+    "libs\\cli\\examples\\graphs\\agent.py",
+    "libs\\cli\\examples\\graphs_reqs_a\\graphs_submod\\agent.py",
+    "libs\\cli\\examples\\graphs_reqs_b\\graphs_submod\\agent.py"
+  ],
+  "config_files": [
+    "libs\\checkpoint-postgres\\pyproject.toml",
+    "libs\\checkpoint-postgres\\tests\\compose-postgres.yml",
+    "libs\\checkpoint-sqlite\\pyproject.toml",
+    "libs\\checkpoint\\pyproject.toml",
+    "libs\\cli\\examples\\.env.example",
+    "libs\\cli\\examples\\graph_prerelease_reqs\\deps\\additional_deps\\pyproject.toml",
+    "libs\\cli\\examples\\graph_prerelease_reqs\\deps\\zuper_deps\\pyproject.toml",
+    "libs\\cli\\examples\\graph_prerelease_reqs\\langgraph.json",
+    "libs\\cli\\examples\\graph_prerelease_reqs\\pyproject.toml",
+    "libs\\cli\\examples\\graph_prerelease_reqs_fail\\langgraph.json"
+  ]
+}

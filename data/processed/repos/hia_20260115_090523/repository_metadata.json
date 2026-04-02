@@ -1,0 +1,89 @@
+{
+  "repo_url": "https://github.com/harshhh28/hia",
+  "repo_name": "hia",
+  "local_path": "data\\raw\\repos\\hia",
+  "extensions_included": "ALL",
+  "timestamp": "20260115_090523",
+  "basic": {
+    "repo_name": "hia",
+    "local_path": "data\\raw\\repos\\hia",
+    "size_mb": 79.81,
+    "file_count": 34,
+    "extracted_at": "2026-01-15T09:05:20.998202"
+  },
+  "git": {
+    "remote_url": "https://github.com/harshhh28/hia",
+    "branch": "main",
+    "latest_commit": {
+      "hash": "96b31512f6cf30aa35d74969b026babad65e1a78",
+      "author": "Harsh Gajjar",
+      "email": "harshgajjar2812@gmail.com",
+      "date": "Fri Dec 12 08:17:13 2025 +0530",
+      "message": "feat: enhance AI capabilities by integrating ChatAgent and updating analysis form for improved report handling"
+    },
+    "branch_count": 3,
+    "branches": [
+      "main",
+      "remotes/origin/HEAD -> origin/main",
+      "remotes/origin/main"
+    ],
+    "tag_count": 0,
+    "tags": []
+  },
+  "dependencies": {
+    "python_packages": [
+      "streamlit",
+      "st-supabase-connection",
+      "groq",
+      "pdfplumber",
+      "filetype",
+      "gotrue",
+      "langchain",
+      "langchain-community",
+      "langchain-huggingface",
+      "faiss-cpu",
+      "sentence-transformers",
+      "langchain-text-splitters"
+    ],
+    "nodejs_packages": [],
+    "docker": false,
+    "other_dependencies": []
+  },
+  "structure": {
+    "directories": [
+      ".devcontainer",
+      ".github",
+      ".streamlit",
+      "public",
+      "src"
+    ],
+    "file_types": {
+      ".py": 23,
+      "": 14,
+      ".sample": 14,
+      ".md": 7,
+      ".txt": 1,
+      ".json": 1,
+      ".idx": 1,
+      ".pack": 1,
+      ".rev": 1,
+      ".toml": 1
+    },
+    "has_agentic_structure": false
+  },
+  "agentic_detection": {
+    "langchain": "dependency",
+    "autogen": "usage",
+    "crewai": "usage",
+    "transformers_agents": "dependency",
+    "agents": "usage",
+    "custom_agents": "implementation"
+  },
+  "entry_points": [
+    "src\\main.py"
+  ],
+  "config_files": [
+    ".devcontainer\\devcontainer.json",
+    ".streamlit\\config.toml"
+  ]
+}

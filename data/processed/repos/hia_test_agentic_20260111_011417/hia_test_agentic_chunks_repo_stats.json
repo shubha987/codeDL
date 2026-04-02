@@ -1,0 +1,56 @@
+{
+  "repository_summary": {
+    "name": "hia",
+    "total_files": 34,
+    "size_mb": 79.81,
+    "agentic_frameworks": [
+      "langchain",
+      "autogen",
+      "crewai",
+      "transformers_agents",
+      "agents",
+      "custom_agents"
+    ],
+    "processing_timestamp": "2026-01-11T01:14:17.831214"
+  },
+  "chunk_analysis": {
+    "total_chunks": 141,
+    "agentic_metrics": {
+      "agentic_chunks": 31,
+      "agentic_percentage": 21.99,
+      "framework_distribution": {
+        "agents": 12,
+        "langchain": 6,
+        "crewai": 2
+      },
+      "role_distribution": {
+        "agent": 25,
+        "workflow": 2,
+        "chain": 6,
+        "memory": 1
+      },
+      "unique_frameworks": 3,
+      "unique_roles": 4
+    },
+    "file_type_distribution": {
+      ".md": 59,
+      ".txt": 1,
+      ".py": 81
+    },
+    "chunk_type_distribution": {
+      "documentation": 59,
+      "configuration": 1,
+      "class": 6,
+      "method": 45,
+      "function": 30
+    },
+    "language_distribution": {
+      "markdown": 46,
+      "bash": 9,
+      "toml": 2,
+      "python": 82,
+      "unknown": 1,
+      "requirements": 1
+    }
+  }
+}

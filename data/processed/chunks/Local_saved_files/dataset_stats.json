@@ -1,0 +1,28 @@
+  
+{
+  "total_chunks": 253,
+  "chunk_type_distribution": {
+    "module": 76,
+    "class": 38,
+    "method": 117,
+    "function": 21,
+    "documentation": 1
+  },
+  "language_distribution": {
+    "python": 252,
+    "markdown": 1
+  },
+  "ast_symbol_distribution": {
+    "module": 76,
+    "class": 38,
+    "method": 117,
+    "function": 21,
+    "documentation": 1
+  },
+  "docstring_coverage_ratio": 0.28063241106719367,
+  "average_code_length_chars": 1178.32,
+  "hierarchy": {
+    "primary_chunks": 253,
+    "secondary_chunks": 0
+  }
+}

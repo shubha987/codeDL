@@ -1,0 +1,10 @@
+{
+  "name": "langchain",
+  "framework": "langchain",
+  "input_file": "data\\processed\\repos\\Fixed_updated_codebase_chunks\\Langchain\\langchain_py_20260201_213651\\langchain_py_chunks.jsonl",
+  "num_chunks": 200,
+  "positive_pairs": 1000,
+  "triplets": 200,
+  "created_at": "2026-02-04T15:11:45.871493",
+  "random_seed": 42
+}

@@ -1,0 +1,10 @@
+{
+  "name": "autogen",
+  "framework": "autogen",
+  "input_file": "data\\processed\\repos\\Fixed_updated_codebase_chunks\\Autogen\\autogen_py_20260201_214822\\autogen_py_chunks.jsonl",
+  "num_chunks": 200,
+  "positive_pairs": 1000,
+  "triplets": 200,
+  "created_at": "2026-02-04T15:10:15.097041",
+  "random_seed": 42
+}

@@ -1,0 +1,24 @@
+{
+  "total_chunks": 110,
+  "chunk_type_distribution": {
+    "class": 29,
+    "method": 62,
+    "function": 18,
+    "context": 1
+  },
+  "language_distribution": {
+    "python": 110
+  },
+  "ast_symbol_distribution": {
+    "class": 29,
+    "method": 62,
+    "function": 18
+  },
+  "docstring_coverage_ratio": 0.35454545454545455,
+  "average_code_length_chars": 1199.86,
+  "hierarchy": {
+    "primary_chunks": 48,
+    "secondary_chunks": 62,
+    "avg_children_per_primary": 1.29
+  }
+}

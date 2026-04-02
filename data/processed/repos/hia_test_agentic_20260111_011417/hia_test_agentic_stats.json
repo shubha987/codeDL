@@ -1,0 +1,63 @@
+{
+  "repository_info": {
+    "name": "hia_test_agentic",
+    "url": "https://github.com/harshhh28/hia",
+    "path": "data\\raw\\repos\\hia",
+    "timestamp": "20260111_011417"
+  },
+  "processing_stats": {
+    "total_files": 28,
+    "processed": 28,
+    "failed": 0,
+    "skipped": 0,
+    "file_types": {
+      ".md": 4,
+      ".txt": 1,
+      ".py": 23
+    },
+    "chunk_types": {
+      "documentation": 59,
+      "configuration": 1,
+      "class": 6,
+      "method": 45,
+      "function": 30
+    }
+  },
+  "chunk_statistics": {
+    "total_chunks": 141,
+    "chunk_type_distribution": {
+      "documentation": 59,
+      "configuration": 1,
+      "class": 6,
+      "method": 45,
+      "function": 30
+    },
+    "language_distribution": {
+      "markdown": 46,
+      "bash": 9,
+      "toml": 2,
+      "python": 82,
+      "unknown": 1,
+      "requirements": 1
+    },
+    "ast_symbol_distribution": {
+      "documentation": 59,
+      "configuration": 1,
+      "class": 6,
+      "method": 45,
+      "function": 30
+    },
+    "docstring_coverage_ratio": 0.3120567375886525,
+    "average_code_length_chars": 884.38
+  },
+  "performance": {
+    "total_time_seconds": 0.96,
+    "files_per_second": 29.29,
+    "chunks_per_second": 147.48
+  },
+  "output_files": {
+    "chunks": "data\\processed\\repos\\hia_test_agentic_20260111_011417\\hia_test_agentic_chunks.jsonl",
+    "metadata": "data\\processed\\repos\\hia_test_agentic_20260111_011417\\repository_metadata.json",
+    "stats": "data\\processed\\repos\\hia_test_agentic_20260111_011417\\hia_test_agentic_stats.json"
+  }
+}

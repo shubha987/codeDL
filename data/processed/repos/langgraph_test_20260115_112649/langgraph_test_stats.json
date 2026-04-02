@@ -1,0 +1,82 @@
+{
+  "repository_info": {
+    "name": "langgraph_test",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "path": "data\\raw\\repos\\langgraph",
+    "timestamp": "20260115_112649"
+  },
+  "processing_stats": {
+    "total_files": 441,
+    "processed": 441,
+    "failed": 0,
+    "file_types": {
+      ".md": 13,
+      "": 18,
+      ".ipynb": 73,
+      ".py": 246,
+      ".typed": 13,
+      ".toml": 16,
+      ".yml": 5,
+      ".lock": 10,
+      ".json": 24,
+      ".txt": 10,
+      ".js": 1,
+      ".ts": 7,
+      ".mts": 1,
+      ".ambr": 4
+    },
+    "chunk_types": {
+      "documentation": 104,
+      "text": 397,
+      "module": 246,
+      "function": 1312,
+      "class": 892,
+      "method": 1146,
+      "configuration": 47
+    }
+  },
+  "chunk_statistics": {
+    "total_chunks": 4144,
+    "chunk_type_distribution": {
+      "documentation": 104,
+      "text": 397,
+      "module": 246,
+      "function": 1312,
+      "class": 892,
+      "method": 1146,
+      "configuration": 47
+    },
+    "language_distribution": {
+      "markdown": 64,
+      "txt": 1,
+      "text": 408,
+      "unknown": 3,
+      "python": 3609,
+      "toml": 16,
+      "yaml": 5,
+      "bash": 11,
+      "json": 24,
+      "requirements": 3
+    },
+    "ast_symbol_distribution": {
+      "documentation": 104,
+      "text": 397,
+      "module": 246,
+      "function": 1312,
+      "class": 892,
+      "method": 1146,
+      "configuration": 47
+    },
+    "docstring_coverage_ratio": 0.32577220077220076,
+    "average_code_length_chars": 3213.22
+  },
+  "performance": {
+    "total_time_seconds": 112.69,
+    "files_per_second": 3.91,
+    "chunks_per_second": 36.77
+  },
+  "output_files": {
+    "chunks": "data\\processed\\repos\\langgraph_test_20260115_112649\\langgraph_test_chunks.jsonl",
+    "metadata": "data\\processed\\repos\\langgraph_test_20260115_112649\\repository_metadata.json"
+  }
+}

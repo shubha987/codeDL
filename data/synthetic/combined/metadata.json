@@ -1,0 +1,13 @@
+{
+  "type": "combined_dataset",
+  "included_runs": [
+    "Autogen",
+    "CrewAi",
+    "Langchain",
+    "Langgraph",
+    "openai_agents_python"
+  ],
+  "total_positive_pairs": 5000,
+  "total_triplets": 1000,
+  "created_at": "2026-02-04T15:14:51.143958"
+}

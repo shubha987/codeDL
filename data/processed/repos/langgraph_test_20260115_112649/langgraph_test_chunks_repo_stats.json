@@ -1,0 +1,48 @@
+{
+  "repository_summary": {
+    "name": "langgraph",
+    "total_files": 450,
+    "size_mb": 12.07,
+    "processing_timestamp": "2026-01-15T11:28:31.707837"
+  },
+  "chunk_analysis": {
+    "total_chunks": 4144,
+    "file_type_distribution": {
+      ".md": 95,
+      "": 18,
+      ".ipynb": 135,
+      ".py": 3596,
+      ".typed": 13,
+      ".toml": 16,
+      ".yml": 5,
+      ".lock": 202,
+      ".json": 24,
+      ".txt": 12,
+      ".js": 1,
+      ".ts": 7,
+      ".mts": 1,
+      ".ambr": 19
+    },
+    "chunk_type_distribution": {
+      "documentation": 104,
+      "text": 397,
+      "module": 246,
+      "function": 1312,
+      "class": 892,
+      "method": 1146,
+      "configuration": 47
+    },
+    "language_distribution": {
+      "markdown": 64,
+      "txt": 1,
+      "text": 408,
+      "unknown": 3,
+      "python": 3609,
+      "toml": 16,
+      "yaml": 5,
+      "bash": 11,
+      "json": 24,
+      "requirements": 3
+    }
+  }
+}
