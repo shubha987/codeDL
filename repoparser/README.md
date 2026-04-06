@@ -41,6 +41,47 @@ src/task_3_data_engineering/
 └── __init__.py
 ```
 
+```
+
+---
+
+## Installation & Environment Setup
+
+To ensure strict dependency mapping and prevent system conflicts, it is highly recommended to isolate RepoParser within a native Python virtual environment (`venv`).
+
+```bash
+# 1. Navigate to the repoparser directory
+cd repoparser/
+
+# 2. Initialize and activate the Virtual Environment
+python3 -m venv venv
+source venv/bin/activate
+
+# 3. Install required pipeline dependencies
+pip install --upgrade pip
+pip install -r requirements.txt
+```
+
+---
+
+## Basic Execution
+
+Once the environment is active, you can interact securely through native execution layers:
+
+```bash
+# 1. To initialize raw AST repository chunking
+# Define the framework bounds pointing to your target codebase:
+python3 src/task_3_data_engineering/chunking/hierarchical_chunker.py \
+    --input_dir path/to/local/langchain \
+    --output processed/chunks.jsonl
+
+# 2. To initialize semantic Pair Extraction & Triplet Negative Generation
+# Evaluates chunk dictionaries and natively builds anchor-positive linkages applying algorithmic thresholds
+python3 src/task_3_data_engineering/export/pairs_triplets_generator.py \
+    --dataset processed/chunks.jsonl \
+    --output data/synthetic/triplets.jsonl
+```
+
 ---
 
 ## Architecture Overview
